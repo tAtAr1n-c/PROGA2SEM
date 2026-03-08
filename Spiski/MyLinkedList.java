@@ -51,27 +51,6 @@ public class MyLinkedList<T> implements MyList<T> {
         return current.data;
     }
 
-    @Override
-//    public T remove(int index) {
-//        if (index < 0 || index >= size) {
-//            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + size);
-//        }
-//        T removed;
-//        if (index == 0) {
-//            removed = head.data;
-//            head = head.next;
-//        } else {
-//            Node<T> current = head;
-//            for (int i = 0; i < index - 1; i++) {
-//                current = current.next;
-//            }
-//            removed = current.next.data;
-//            current.next = current.next.next;
-//        }
-//
-//        size--;
-//        return removed;
-//    }
     public T remove(int index) {
         Node<T> current = head;
         if(index < 0 || index > size){
