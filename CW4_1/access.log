@@ -1,0 +1,39 @@
+2025-03-15 10:15:32 INFO GET /index.html 200
+2025-03-15 10:17:45 ERROR Failed to connect to database
+2025-03-15 10:18:02 GET /api/users 200
+2025-03-15 10:20:11 WARN Slow response 500ms
+2025-03-15 10:22:34 ERROR NullPointerException in module
+2025-03-15 10:25:19 POST /api/users 201
+2025-03-15 10:28:47 GET /api/users/5 200
+2025-03-15 10:30:12 ERROR Timeout while reading file
+2025-03-15 10:33:56 GET /api/users?page=2 200
+2025-03-15 10:35:40 INFO Shutdown hook triggered
+2025-03-15 10:38:23 ERROR Invalid token for user admin
+2025-03-15 10:40:01 GET /api/users 304
+2025-03-15 10:42:33 ERROR Disk full
+2025-03-15 10:45:17 GET /api/users/me 200
+2025-03-15 10:48:59 GET /static/style.css 200
+2025-03-15 10:51:20 ERROR Connection refused by backend
+2025-03-15 10:54:44 DELETE /api/users/42 204
+2025-03-15 10:57:11 ERROR OutOfMemoryError
+2025-03-15 11:00:33 GET /api/users?role=admin 200
+2025-03-15 11:03:07 INFO Cache cleared
+2025-03-15 11:05:29 ERROR Failed to write log file
+2025-03-15 11:08:52 PUT /api/users/7 200
+2025-03-15 11:10:18 ERROR SSL handshake failed
+2025-03-15 11:13:40 GET /api/users 500
+2025-03-15 11:15:05 INFO Starting backup
+2025-03-15 11:17:29 ERROR Database deadlock detected
+2025-03-15 11:20:12 GET /api/users?search=john 200
+2025-03-15 11:22:48 ERROR No such file: config.json
+2025-03-15 11:26:01 PATCH /api/users/23 200
+2025-03-15 11:28:35 ERROR ArrayIndexOutOfBoundsException
+2025-03-15 11:31:09 GET /api/users 401
+2025-03-15 11:34:42 ERROR Failed to parse XML
+2025-03-15 11:37:15 GET /api/users?limit=10 200
+2025-03-15 11:39:50 ERROR IllegalStateException
+2025-03-15 11:42:23 GET /api/users/active 200
+2025-03-15 11:45:01 INFO User logout
+2025-03-15 11:47:34 ERROR Cannot allocate memory
+2025-03-15 11:50:08 GET /api/users/roles 200
+2025-03-15 11:47:34 ERROR Cannot allocate memory
